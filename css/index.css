@@ -1,4 +1,5 @@
 body{
+    font-family: 'Inter', sans-serif;
     background-color: #F3F5FC;
     display: flex;
     flex-direction: column;
@@ -10,6 +11,7 @@ body{
     margin: 20px;
 }
 
+/* cofificador / descodificador  */
 #codificador-descodificador{
     margin: 10px;
 }
@@ -27,6 +29,18 @@ body{
     outline: 0;
 }
 
+.p_exclamacao{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.p_exclamacao > img{
+    width: 16px;
+    margin-right: 8px;
+}
+
+
 #card_botoes{
     display: flex;
     flex-direction: column;
@@ -35,10 +49,12 @@ body{
 }
 
 .botao{  
-padding: 24px;
-width: 343px;
-height: 67px;
-border-radius: 24px;}
+    padding: 24px;
+    width: 343px;
+    height: 67px;
+    font-weight: 400;
+    border-radius: 24px;
+}
 
 .botao-criptografar{
     background-color: #0A3871;
@@ -50,6 +66,7 @@ border-radius: 24px;}
 .botao-descriptografar{
     background-color: #F3F5FC;
     border-color:#0A3871;
+    color: #0A3871;
     border-width: 1px;
 }
 
@@ -58,8 +75,45 @@ border-radius: 24px;}
 
 
 #card_texto-resultado{
+    display: flex;
+    flex-direction: column;
+    
+    width: 327px;
+    height: 186px;
     border: 1px none;
     background-color: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
+    margin-bottom: 12px;
+}
+
+
+.texto_nenhuma-mensagem{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+}
+
+.texto_nenhuma-mensagem > h3{
+    font-family: 'Inter';
+    color: #343A40;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+ 
+}
+
+.texto_nenhuma-mensagem > p{
+    font-family: 'Inter';
+    color: #495057;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    
 }
