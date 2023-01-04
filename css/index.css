@@ -1,0 +1,65 @@
+body{
+    background-color: #F3F5FC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cabecalho{
+    align-self: flex-start;
+    margin: 20px;
+}
+
+#codificador-descodificador{
+    margin: 10px;
+}
+
+#caixa_texto_codificador-descodificador{
+    width: 100px;
+    height: 250px;
+}
+
+#texto_codificador-descodificador{
+    background-color: #F3F5FC;
+    margin: 15px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#card_botoes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.botao{  
+padding: 24px;
+width: 343px;
+height: 67px;
+border-radius: 24px;}
+
+.botao-criptografar{
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-style: none;
+} 
+
+
+.botao-descriptografar{
+    background-color: #F3F5FC;
+    border-color:#0A3871;
+    border-width: 1px;
+}
+
+
+
+
+
+#card_texto-resultado{
+    border: 1px none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
