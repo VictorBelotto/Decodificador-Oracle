@@ -8,7 +8,7 @@ body{
 
 #cabecalho{
     align-self: flex-start;
-    margin: 20px;
+    margin: 10px;
 }
 
 /* cofificador / descodificador  */
@@ -16,14 +16,17 @@ body{
     margin: 10px;
 }
 
-#caixa_texto_codificador-descodificador{
-    width: 100px;
-    height: 250px;
-}
 
-#texto_codificador-descodificador{
+
+#texto_codificador-descodificador, ::placeholder{
+    resize: none;
     background-color: #F3F5FC;
-    margin: 15px;
+    color: #0A3871;
+    font-weight: 400;    
+    font-size: 32px;
+    line-height: 150%;
+    width: 343px;
+    height: 150px;
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
