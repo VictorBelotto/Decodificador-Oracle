@@ -1,0 +1,60 @@
+#codificador-descodificador{
+    margin: 10px 0 0 10px;
+}
+
+
+
+#texto_codificador-descodificador, ::placeholder{
+    resize: none;
+    background-color: #F3F5FC;
+    color: #0A3871;
+    font-weight: 400;    
+    font-size: 32px;
+    line-height: 150%;
+    width: 343px;
+    height: 150px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.p_exclamacao{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.p_exclamacao > img{
+    width: 16px;
+    margin-right: 8px;
+}
+/*Botoes*/
+
+#card_botoes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.botao{  
+    padding: 24px;
+    max-width: 343px;
+    height: 67px;
+    font-weight: 400;
+    border-radius: 24px;
+}
+
+.botao-criptografar{
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-style: none;
+} 
+
+
+.botao-descriptografar{
+    background-color: #F3F5FC;
+    border-color:#0A3871;
+    color: #0A3871;
+    border-width: 1px;
+}
