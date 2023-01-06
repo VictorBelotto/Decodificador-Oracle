@@ -2,7 +2,7 @@
     margin-top: 25px;
     display: flex;
     flex-direction: column;
-    max-width: 327px;
+    width: 343px;
     height: 186px;
     border: 1px none;
     background-color: #FFFFFF;
@@ -22,7 +22,6 @@
 }
 
 .texto_nenhuma-mensagem > h3{
-    font-family: 'Inter';
     color: #343A40;
     text-align: center;
     font-weight: 700;
@@ -32,7 +31,7 @@
 }
 
 .texto_nenhuma-mensagem > p{
-    font-family: 'Inter';
+    margin: 0 20px 0 20px;
     color: #495057;
     text-align: center;
     font-style: normal;
