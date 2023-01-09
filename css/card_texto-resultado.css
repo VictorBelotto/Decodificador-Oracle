@@ -11,6 +11,10 @@
     margin-bottom: 12px;
 }
 
+#imagem_texto{
+    display: none;
+}
+
 
 .texto_nenhuma-mensagem{
     width: 100%;

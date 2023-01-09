@@ -2,7 +2,6 @@
     margin: 10px 0 0 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -24,6 +23,7 @@
 }
 
 #p_exclamacao{
+    align-self: flex-start;
     margin-bottom: 20px;
 }
 
