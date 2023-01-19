@@ -42,13 +42,7 @@
     gap: 20px;
 }
 
-.botao{  
-    padding: 24px;
-    width: 343px;
-    height: 67px;
-    font-weight: 400;
-    border-radius: 24px;
-}
+
 
 .botao-criptografar{
     background-color: #0A3871;
