@@ -47,7 +47,7 @@ cardBotoes.addEventListener("click" , (event) => {event.preventDefault();
     }
 
 
-   
+    textoCodificador.focus();
 
 })
  
@@ -56,5 +56,7 @@ botaoCopiar.addEventListener("click", (event)=> {event.preventDefault();
     textoCopiado.select();
     textoCopiado.setSelectionRange(0, 99999)
     document.execCommand("copy");
+
+    textoCodificador.focus();
 })
     
