@@ -48,12 +48,39 @@
     background-color: #0A3871;
     color: #FFFFFF;
     border-style: none;
+    
 } 
+
+.botao-criptografar:hover{
+    background-color: #F3F5FC;
+    color: #0A3871;
+    border-style: solid;
+    border-color:#0A3871;
+    border-width: 1px;
+}
+.botao-criptografar:active{
+    box-shadow: 0 0 0 0  #031121, inset 3px 3px 3px #031121 ;
+    transform: translate(3px , 3px);
+}
+
 
 
 .botao-descriptografar{
     background-color: #F3F5FC;
-    border-color:#0A3871;
     color: #0A3871;
+    border-color:#0A3871;
     border-width: 1px;
+   
+}
+
+.botao-descriptografar:hover{
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+
+.botao-descriptografar:active{
+    box-shadow: 0 0 0 0  #010d1c, inset 3px 3px 3px #010d1c ;
+    transform: translate(3px , 3px);
 }

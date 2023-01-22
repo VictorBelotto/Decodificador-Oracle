@@ -30,6 +30,9 @@ body{
     height: 67px;
     font-weight: 400;
     border-radius: 24px;
+    cursor: pointer;
+    text-shadow: 2px 2px 0px 1px rgba(41, 3, 176, 0.3);
+    box-shadow: 2px 2px 0px 1px #010d1c;
 }
 
 

@@ -68,8 +68,21 @@
     border-color:#0A3871;
     color: #0A3871;
     border-width: 1px;
-    
 }
+
+.botao-copiar:hover{
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+
+.botao-copiar:active{
+    box-shadow: 0 0 0 0  #010d1c, inset 3px 3px 3px #010d1c ;
+    transform: translate(3px , 3px);
+}
+
+
 
 .display-none{
     display: none;

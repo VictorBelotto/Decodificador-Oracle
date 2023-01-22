@@ -1,3 +1,4 @@
+
 const textoCodificador = document.querySelector("#texto_codificador-descodificador");
 
 const botaoCodificar = document.querySelector(".botao-criptografar");
@@ -13,43 +14,22 @@ const cardBotoes = document.querySelector("#card_botoes");
 const textoNenhumaMensagem = document.querySelector(".texto_nenhuma-mensagem");
 
 
+
+
 cardBotoes.addEventListener("click" , (event) => {event.preventDefault();
 
 
     if(textoCodificador.value !== ""){
 
-        if(event.target == botaoCodificar){
-            let textoParaCodificar = textoCodificador.value;
-    
-            let textoCodificado = textoParaCodificar.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
-    
-            mensagemResultado.value = textoCodificado;
+
+        if(event.target === botaoCodificar){
+            encriptar(textoCodificador.value);
         }
 
-
-
-        function logica(){
-            let array = [ [/e/g , "enter"] , [/i/g , "imes"] , [/a/g, "ai"] , [/o/g, "ober"] , [/u/g, "ufat"]]  
-
-            for(let arrays of array){
-
-            }
+        if(event.target === botaoDescodificar){
+            desencriptar(textoCodificador.value); 
         }
 
-
-
-
-        /* --------------------------------------------------------------------- */
-        if(event.target == botaoDescodificar){
-            let textoParaDescodificar = textoCodificador.value;
-    
-            let textoDescodificado = textoParaDescodificar.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
-    
-            mensagemResultado.value = textoDescodificado;
-            
-        }
-
-        
         exibeResultado()
     
     }else{
@@ -65,6 +45,35 @@ botaoCopiar.addEventListener("click", (event)=> {event.preventDefault();
 })
     
 
+const algoritimoCriptografia = [ ["e" , "enter"] , ["i" , "imes"] , ["a" , "ai"] , ["o", "ober"] , ["u", "ufat"]] ;
+
+function encriptar(textoParaCodificar){
+
+    for(let i = 0; i < algoritimoCriptografia.length; i++){
+        textoParaCodificar = textoParaCodificar.replaceAll(algoritimoCriptografia[i][0] , algoritimoCriptografia[i][1]);
+              
+    }
+
+   mensagemResultado.value = textoParaCodificar
+ 
+}
+
+function desencriptar(textoParaDescodificar){
+
+   for(let i = 0; i < algoritimoCriptografia.length; i++){
+       textoParaDescodificar = textoParaDescodificar.replaceAll(algoritimoCriptografia[i][1] , algoritimoCriptografia[i][0]);
+             
+   }
+
+  mensagemResultado.value = textoParaDescodificar
+
+}
+
+function exibeResultado(){
+    textoNenhumaMensagem.classList.add("display-none")
+    mensagemResultado.classList.remove("display-none")
+    botaoCopiar.classList.remove("display-none")
+}
 
 
 function exibeNenhumaMensagem(){
@@ -76,11 +85,7 @@ function exibeNenhumaMensagem(){
     textoCodificador.focus();
 }
 
-function exibeResultado(){
-    textoNenhumaMensagem.classList.add("display-none")
-    mensagemResultado.classList.remove("display-none")
-    botaoCopiar.classList.remove("display-none")
-}
+
 
 function btnCopiar(){
     let textoCopiado = mensagemResultado;
