@@ -1,4 +1,4 @@
-#Codificador
+# Codificador Alura + Oracle
 
 
 
@@ -31,3 +31,17 @@
 <img src="https://user-images.githubusercontent.com/108822052/213955849-04504f56-342f-431f-b6c1-dd2abd924836.png" width="400px">
 
 </div>
+
+## Sobre o projeto
+
+<div>
+         
+  <p>
+      Este projeto é a conclusão do Challenge fornecido pelo programa One Next Education (Alura + Oracle), e foi proposto a criar esse projeto de Criptografar e Descriptografar um código.
+  </p>
+
+</div>
+
+
+
+
