@@ -35,6 +35,11 @@ body{
     box-shadow: 2px 2px 0px 1px #010d1c;
 }
 
+.footer{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
 
 
 @media (min-width: 730px) {
