@@ -43,7 +43,7 @@
  <p aling="center" display="inline-block">
      Acesse o projeto para conferir as funcionalidades: 
  </p>
-   <a href="https://decodificador-oracle.vercel.app/" target="_blank" rel="noopener noreferrer"><img  aling="center" display="inline-block"                                 src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a> 
+   <a href="https://decodificador-oracle.vercel.app/"  target="_blank" rel="noopener"><img  aling="center" display="inline-block"                                 src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a> 
   
          
          
