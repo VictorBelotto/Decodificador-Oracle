@@ -1,7 +1,5 @@
 # Codificador Alura + Oracle
 
-
-
 ### Desktop
 
 
@@ -27,6 +25,7 @@
 
          
 <div aling="center" style="display:inline-block">
+
 <img src="https://user-images.githubusercontent.com/108822052/213955850-3f3714e5-c819-4bf1-a5c5-38caccf527a8.png" width="400px">
 <img src="https://user-images.githubusercontent.com/108822052/213955849-04504f56-342f-431f-b6c1-dd2abd924836.png" width="400px">
 
@@ -38,9 +37,28 @@
          
   <p>
       Este projeto é a conclusão do Challenge fornecido pelo programa One Next Education (Alura + Oracle), e foi proposto a criar esse projeto de Criptografar e Descriptografar um código.
+     
   </p>
-
+  
+ <p aling="center" display="inline-block">
+     Acesse o projeto para conferir as funcionalidades: 
+ </p>
+   <a href="https://decodificador-oracle.vercel.app/" target="_blank" rel="noopener noreferrer"><img  aling="center" display="inline-block"                                 src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a> 
+  
+         
+         
 </div>
+
+## Tecnologias usadas
+<div style="display: inline-block"> <br/>
+
+<img aling="center" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+
+<img aling="center" alt="css3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+
+<img aling="center" alt="JavaScrip" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+
+</div
 
 
 
