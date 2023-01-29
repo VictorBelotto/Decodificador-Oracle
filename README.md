@@ -1,6 +1,6 @@
 # Challenge ONE | Decodificador de texto
 
-## Visualização do Projeto: 
+### Visualização do Projeto: 
 
 ### Desktop
 
