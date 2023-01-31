@@ -13,21 +13,20 @@ const cardBotoes = document.querySelector("#card_botoes");
 
 const textoNenhumaMensagem = document.querySelector(".texto_nenhuma-mensagem");
 
-
-
+const algoritimoCriptografia = [ ["e" , "enter"] , ["i" , "imes"] , ["a" , "ai"] , ["o", "ober"] , ["u", "ufat"]] ;
 
 cardBotoes.addEventListener("click" , (event) => {event.preventDefault();
+    let textoDigitado =  textoCodificador.value.toLowerCase() 
 
-
-    if(textoCodificador.value !== ""){
+    if(textoDigitado !== ""){
 
 
         if(event.target === botaoCodificar){
-            encriptar(textoCodificador.value);
+            encriptar(textoDigitado);
         }
 
         if(event.target === botaoDescodificar){
-            desencriptar(textoCodificador.value); 
+            desencriptar(textoDigitado); 
         }
 
         exibeResultado()
@@ -45,7 +44,6 @@ botaoCopiar.addEventListener("click", (event)=> {event.preventDefault();
 })
     
 
-const algoritimoCriptografia = [ ["e" , "enter"] , ["i" , "imes"] , ["a" , "ai"] , ["o", "ober"] , ["u", "ufat"]] ;
 
 function encriptar(textoParaCodificar){
 
@@ -88,8 +86,6 @@ function exibeNenhumaMensagem(){
 
 
 function btnCopiar(){
-    let textoCopiado = mensagemResultado;
-    textoCopiado.select();
-    textoCopiado.setSelectionRange(0, 99999)
-    document.execCommand("copy");
+    let textoCopiado = mensagemResultado.value;
+    navigator.clipboard.writeText(textoCopiado)
 }
